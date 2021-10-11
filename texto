@@ -1,0 +1,68 @@
+Clase 2 - ¿Qué son y para que sirve HTML y CSS?
+-------------------------------------------------------------
+HTML -> Es un Lenguaje de Marcado de Hipertexto 
+Es el código que ayuda a estructurar una página web
+
+CSS -> Hojas de estilo en cascada
+Es el lenguaje que da vida a la estrutura web
+
+Revisión de la página de Platzi 
+
+El inspector de elementos en la parte del frontend para HTML y CSS tiene dos partes
+Es una herramienta de gran utilidad, nos permite visualizar de forma detenida cada elemento que podemos ver en la página web 
+
+La estructura del HTML (en la parte superior)
+Como la estructura de CSS (en la parte baja)
+
+Clase 3 - ¿Motores de renderizado?
+-------------------------------------------------------------
+Significa pasar de archivos a pixeles en pantalla 
+
+Cada explorador tienen diferentes motores de renderizado 
+
+Chrome  -> blink
+Edge    -> edge HTML
+Safari  -> webkit
+Firefoz -> Gecko
+
+Ellos hacen lo mismo para pasar de archivos a pixeles 
+
+El navegador hace 5 pasos.
+
+1. Primero se vuelve los archivos a objetos -> crea el DOM (son objetos que el navegador puede comprender)
+2. Calcula el estilo correspondiente a cada nodo DOM, es el arbol de la página web 
+3. Calcula las dimensiones de cada nodo y donde va en la pantalla
+4. Pinta las cajas distribuidas 
+5. Toma las capas y las convierte en una imagen para mostrar en pantalla 
+
+
+Clase 4 - Anatomía de un documento HTML y sus elementos 
+------------------------------------------------------------------
+
+ Un elemento tiene la siguiente sintaxis 
+ Elemento que tiene 
+ -> Etiqueta de apertura (picoparentesis)
+ -> Contenido 
+ -> Etiquta de cierre (picoparentesis)
+Adicionalmente se colocan atributos 
+Etiqueta de apertura 
+h1 class = "title"
+Se define el atributo y valor 
+
+Anidamiento 
+Se van sumando diferentes elementos de una estructura de HTML 
+
+Elementos vacíos 
+Hay elementos que no necesariamente se cierran, por ejemplo img 
+
+Anatomía de un documento de un HTML
+Los aspectos básicos son los siguientes:
+
+El doctype menciona que es un documento de html
+El lenguaje lang 
+Head es la cabecera 
+
+Clase 5 - ¿Qué es el HTML semántico?
+--------------------------------------------------------------
+
+
