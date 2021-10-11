@@ -1,3 +1,4 @@
+/* 
 Clase 2 - ¿Qué son y para que sirve HTML y CSS?
 -------------------------------------------------------------
 HTML -> Es un Lenguaje de Marcado de Hipertexto 
@@ -64,5 +65,112 @@ Head es la cabecera
 
 Clase 5 - ¿Qué es el HTML semántico?
 --------------------------------------------------------------
+HTML semántico 
+Etiquetas con significado 
+Ayuda a tu sitio a ser accesible
+Mejora tu posicionamiento sectionDódigo mas claro 
+
+El esqueleto básico sería 
+Header
+nav
+section
+article
+aside
+footer
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        Hola
+    </header>
+
+    <main>
+        <nav>
+            Menu
+        </nav>
+        <section>
+            <article>
+                Cuerpo
+            </article>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
+
+clase 6 - Etiquetas de HTML más usadas
+-------------------------------------------------------
+Layout -> Es básicamente el diseño de toda la página 
+Header
+Nav
+Section
+Article
+Aside
+footer
+
+-> Enlaces interacción con otras paginas web
+a
+Textos -> Elementos para la manipulación del texto
+h1-h6
+p
+span
+i
+em
+strong
+b
+br salto de linea
+
+--> Imagenes y videos 
+img
+svg
+iframe
+video
+
+--> Formularios 
+Form 
+input
+label
+button
+
+--> Listas
+ul
+li
+ol
+
+https://htmlreference.io/
+Manual de referencia 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
