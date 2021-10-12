@@ -1,0 +1,29 @@
+p {
+    color: salmon;
+}
+p:hover {
+    color: skyblue;
+}
+p::before {
+    content: "🌟 ";
+}
+p::after {
+    content: "👏";
+}
+/* 
+p::before {
+    content: "✨";
+}
+p:hover::before {
+    content: "👍";
+} */
+/* Segundo hijo */
+div p:nth-child(2) {
+    color: violet;
+}
+p::first-letter {
+    color: teal;
+}
+::placeholder {
+    color: tomato;
+}

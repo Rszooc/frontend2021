@@ -147,17 +147,83 @@ ol
 https://htmlreference.io/
 Manual de referencia 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Contacto</li>
+            <li>Portafolio</li>
+            <li>About us</li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <img src="img/pug-con-gorro-navideno_1280x720_xtrafondos.com.jpg" alt="">
+        </article>
+        <article>
+            <form action="">
+                <label for="name">Name: </label>
+                <input type="text" id="name">
+            </form>
+            <a href="https://platzi.com/home">Tu platzi</a>
+        </article>
+    </section>
+</body>
+</html>
 
+Clase 7 - Anatomia de una declaración CSS: selectores, propiedades y valores
+-----------------------------------------------------------------
 
+Anatomía de uyna declaración de un CSS
 
+Selector. Es un puente que comunica el CSS al html 
+Propiedad. 
+Valor.
 
+Css ya tiene unos colores predeterminados 
 
+clase 8 - Tipos de selectores: básicos y combinadores
+---------------------------------------------------------
+Selectores básicos 
+De tipo     --> Cual es la etiqueta que vamosa  modificar 
+De clase    --> Este afecta a todos los elementos que tengan esta clase 
+De ID       --> Este afecta solamente a un solo selector
+De atributo --> Se selecciona los atributos del selector 
+Universal   --> Aplica a toda la hoja de estilos 
 
+Selectores combinadores
 
+Descendientes div p --> Hijo
+Hijo directo div > p
+Elemento adyacente div + p
+General de hermanos div ~ p
 
+Clase 9 - Pseudoclases y pseudoelementos
+______________________________
 
+Las pseudoclases nos ayudan a llegar a aquellas activivades o acciones que hace el usuario 
 
+Por ejemplo
+Pseudoclase :
+:active
+:focus
+:hover
+:nth-child(n)
 
+Pseudoelementos ::
+Son aquellso que nos permiten acceder a elementos de html que no son accesibles 
+::after
+::before
+::first-letter
+::placeholder
 
 
 

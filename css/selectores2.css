@@ -1,0 +1,17 @@
+div p {
+    color: lime;
+}
+div > div {
+    background: plum;
+}
+.es {
+    background: red;
+}
+div + section {
+    background: palevioletred;
+}
+/* hermano */
+
+div ~ p {
+    color: powderblue;
+}
