@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+}
+div {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background: pink;
+    box-sizing: border-box;
+    /* Box sizing deja el tamáño que se coloca en el width y height  los padding se restan del tamaño completo*/
+    border: 1px solid hotpink;
+    margin: 20px;
+}

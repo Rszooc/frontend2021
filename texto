@@ -225,6 +225,183 @@ Son aquellso que nos permiten acceder a elementos de html que no son accesibles
 ::first-letter
 ::placeholder
 
+Clase 10 - Cascada y especifidad en CSS
+-------------------------------------------------
+--> Cascada Cascading Style Sheet Hojas de estilo en cascada 
+Importa la importancia de como se escriben 
+El orden como se escribe importa porque se sobreescribe los elementos 
+
+
+
+--> Especifidad
+Los navegadores determinan que reglas de css deben aplicarse a las etiqutas html
+El orden y orgiden de clasificacion intervienen 
+
+A veces los navegadores no saben que reglas seguir y entran en la especificidad
+
+entre mayor especificidad mayor la aplicación de los estilos 
+
+Reglas . La importancia va de arriba hacia abajo
+
+x 0 0 0 0        !important
+  x 0 0 0        Estilos en linea. colocar un atributo 
+    x 0 0        ID identificadores
+      x 0        Clases y atributos y pseudoclases
+        x        Elementos y pseudoelementos
+        0        Selector universal
+
+#id h1::first-letter
+
+id             --> 100
+h1             --> 1
+::first-letter --> 1
+
+102 Más específico
+
+p .sidemenu div:hover
+
+p         --> 1 
+.sidemenu --> 10
+div       --> 1
+:hover    --> 10
+
+22 Menos especificidad
+
+Se aplicaría primero la regla 
+
+Clase 11 - Tipos de display más usados: block, inline e inline-block
+------------------------------------------------------------------------
+
+Display --> Es el tipo de visualización que tienen los elementos 
+
+--> Block. Toma todo el ancho de la pantalla (siempre que no se defina por css)
+--> Inline. Toma solo el espacio que tiene el elemento
+            No aplica elementos de widht ni height solamente elementos horizontales
+--> inline-block. Alinea los elementos siempre y cuando las dimensiones sean mas pequeñas que la linea
+--> Flex
+--> Grid
+
+Clase 12 - Tipos de display mas usados: flexbox y CSS grid
+---------------------------------------------------------------------------
+--> Flexbox - Cursos independientes
+--> CSS Grid - Cursos independientes 
+
+Clase 13 - Modelo de caja
+---------------------------------------------------------------------------
+Los elementos tienen diferentes caracteristicas (las etiquetas) son caja cada una de estas cajas son las siguientes propiedades:
+
+Contenido  --> Tamaño del elemento
+Padding    --> Margen interno
+Borden     --> Linea que contorna el objeto
+Margen     --> Margen externo 
+
+Clase 14 - Colapso de márgenes
+--------------------------------------------------------------------------------
+Hay colapsos de forma vertical cuando se ocupan elementos básicos 
+
+Hay dos elementos de bloque adyacentes 
+p sol 
+p luna 
+
+No se colapsa cuando se utilizan elementos de flexbox, o grid y elementos que no sean de bloque 
+
+Entonces la solución para evitar que se colapsen es usar flexbox
+
+Clase 15 - Posicionamiento en CSS
+---------------------------------------------------------------------------------------
+
+Nos ayuda a ubicar elementos 
+Relative. El elemento queda en la posicion relativa, es independiente a los demás elementos
+Absolute. Queda posicionado dentro de un elemento padre relative
+Fixed. Se queda pegado en la parte inicial 
+Sticky. Pegajoso se utiliza para quedar en la parte superior en las listas crea un efecto bastante interesante 
+static. Es la posicion por defecto
+initial. Es la posicion que se formatea al inicio 
+inherital. Es la posicion heredada del padre
+
+Cuando hablamoos de las medidas relative y absolute se desbloquean las propiedes
+
+Estas propiedades son necesarias para poder mover los elementos en diferentes posiciones
+
+Top
+left
+Right
+bottom 
+
+Clase 16 - Z-index y el contexto de apilamiento 
+-------------------------------------------------------------
+como los elementos se van acomodando 
+
+El orden del html importa en la manera de la creación 
+Todos los elementos que estan abajo quedan delante 
+
+z index solamente funciona con ciertos tipos de position
+
+También depende si son padres o son hijos 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

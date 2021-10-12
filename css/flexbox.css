@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+}
+.container {
+    display: flex;
+    background: papayawhip;
+    /* justify-content: space-between; */
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    flex-direction: column;
+}
+.item {
+    width: 30px;
+    height: 30px;
+    background: purple;
+    /* margin: 1px; */
+}
+.container .item:nth-child(2n+1) {
+    background: cyan;
+}
