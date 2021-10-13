@@ -1,29 +1,37 @@
 *{
     margin: 0;
 }
-
-.container {
-    width: 200px;
-    height: 200px;
-    background: peachpuff;
-    position: relative;
-    top: 20px;
+header {
+    margin-bottom: 50px;
 }
-.item {
-    width: 20px;
-    height: 20px;
-    background: hotpink;
+div {
     position: absolute;
-    right: 0;
+    background: palegoldenrod;
 }
-nav {
-    width: 100%;
-    height: 60px;
-    background: lightcyan;
-    position: fixed;
-    top:0;
+/* .one {
+    z-index: 5;
 }
-ul p {
-    position: sticky;
-    top: 0;
+.two {
+    z-index: 4;
+} */
+.red{
+    width: 100px;
+    height: 100px;
+    background:red;
+    z-index: 5;
+}
+.blue {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    /* top: -1px; */
+    z-index: 4;
+}
+.yellow {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    /* top: -1px; */
+    z-index: 6;
+
 }

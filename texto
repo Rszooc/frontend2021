@@ -339,6 +339,155 @@ z index solamente funciona con ciertos tipos de position
 
 También depende si son padres o son hijos 
 
+Clase 17 - Propiedades y valores de CSS más usados
+----------------------------------
+--> Layout 
+Display
+--> Modelo de caja
+Margin
+padding
+border
+--> Tamaños
+width
+height
+--> Colores de fondo
+background
+background-color
+--> Textos
+Font-size
+Font- weight
+font-family
+text-aling
+color
+
+https://cssreference.io/
+
+Clase 18 - Unidades de medida 
+-------------------------------------
+Medidas absolutas --> Medidas que no dependen de nadie mas para ser ellas mismas 
+px, pc, pt, in, cm , mm
+
+Meduidas Relativas --> Dependen de alguien mas
+rem, em, vw, vh, vmin, vmax, ex, ch
+
+clase 19 - Responsive Design 
+------------------------------------------
+Diseño responsivo Que un sitio web se vea bien en varias medidas de pantalla 
+
+Media queris se ocupan para hacer el ajuste de lkas diferentes pantallas 
+
+/* min width -> desde */
+/* max-widht --> hasta */
+
+clase 20 - ¿Qué son las arquitecturas CSS? ¿Para que sirven?
+-----------------------------------
+Objetivos Ser predecible
+Reutilizable
+Mantenible
+Escalable
+
+Buenas prácticas 
+Lineamientos . Como estructurar el código
+Documentación. Información del proyecto
+Estándares. Las buenas practicas
+Componentes. REACT  
+
+Las arquitecturas son las practicas buenas practicas para que sea mas sencillo, 
+
+Refactor es cambiar nuestro código 
+
+Para hacer mas mantenible nuestro codigo 
+
+Clase 21 - OOCSS, BEM, SMACSS, ITCSS y Atomic Design
+-----------------------------------------
+OOCSS. Tener objetos que son estructuras principales que van a estar encapsuladas en mascaras 
+
+Separa el contenedor y el contenido
+
+BEM . Elemento Bloque Modificador 
+
+Bloque la card
+Elemento img 
+Modificador el color que se coloca 
+
+SMACSS 
+El orden que se estructura los elemenbtos de html 
+base
+Layout
+Module
+state
+theme
+
+SMACSS 
+Separa todo lo que compone la pagina web en pequeñas estructuras
+
+ITCSS
+especificidad
+Magnitud
+Claridad
+
+Ajustes
+Herramientas
+
+Atomic Design 
+
+Atomos. Elementos unicos 
+input 
+Moleculas Elementos mas complejos
+input con boton 
+Organismos Elementos mucho mas complejos
+Formulario 
+
+Clase 22 - CSS para entrevistas y el mundo laboral 
+--------------------------------------------
+
+HTML
+CSS
+JS
+
+Tener las bases de estas 3 tecnologías 
+
+layout 
+flexbox
+cssGrid
+position
+
+Calida de código 
+Cada uno de los conceptos previos 
+
+
+
+Para hacer ejerccios 
+https://www.frontendmentor.io/
+
+
+Los no es el nuevo si xD
+
+Clase 23 - Continúa con el curso práctico de frontend Developer
+--------------------------------------------------------------
+
+
+Examen
+
+Descubre las ventajas del responsive design y las arquitecturas CSS
+
+Comprende cómo se transforma el código HTML y CSS en página web
+
+Conoce las etiquetas más importantes de HTML
+
+Usa correctamente las propiedades y selectores de CSS
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
